@@ -481,6 +481,13 @@ img {
   background-color: #31d0aa;
 }
 
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+/*modal*/
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -500,7 +507,7 @@ img {
 .backdrop.is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: auto;
+  pointer-events: all;
 }
 
 .modal {
