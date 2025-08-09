@@ -481,6 +481,10 @@ img {
   background-color: #31d0aa;
 }
 
+.container-form {
+  margin-left: auto;
+}
+
 .footer-form {
   display: flex;
   gap: 24px;
@@ -514,6 +518,13 @@ img {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.input-email-footer::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 /*modal*/
