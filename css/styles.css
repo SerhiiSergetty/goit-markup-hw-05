@@ -516,6 +516,7 @@ img {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 
 .input-email-footer {
@@ -525,6 +526,10 @@ img {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.icon-frame {
+  margin-left: 16px;
 }
 
 /*modal*/
