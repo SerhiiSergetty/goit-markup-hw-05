@@ -734,3 +734,6 @@ img {
   top: 50%;
   transform: translateY(-50%);
 }
+.input-form:focus ~ svg {
+  fill: #4d5ae5;
+}
