@@ -608,9 +608,9 @@ img {
   background: transparent;
 
   border-radius: 50%;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
@@ -652,6 +652,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 4px;
 }
 
 .input-form {
@@ -676,9 +677,9 @@ img {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
   cursor: pointer;
+  background: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
   font-weight: 500;
   font-size: 16px;
@@ -686,4 +687,12 @@ img {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+}
+.label-chekbox {
+  width: 360px;
+  height: 16px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
