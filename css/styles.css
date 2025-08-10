@@ -748,3 +748,13 @@ img {
 .textarea-form:focus {
   border-color: #4d5ae5;
 }
+.btn-form-send {
+  margin-bottom: 24px;
+}
+.form-contacts-textarea {
+  margin-bottom: 16px;
+}
+
+.form-contacts-checkbox {
+  margin-bottom: 24px;
+}
