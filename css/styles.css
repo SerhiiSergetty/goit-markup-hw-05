@@ -625,10 +625,10 @@ img {
   border: none;
 }
 
-.icon-modal-close:hover,
+/*.icon-modal-close:hover,
 .icon-modal-close:focus {
   fill: #ffffff;
-}
+}*/
 
 .icon-modal-close {
   width: 8px;
@@ -644,8 +644,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
-
-.title-model {
   width: 360px;
+  margin-bottom: 16px;
+}
+.form-contacts {
 }
