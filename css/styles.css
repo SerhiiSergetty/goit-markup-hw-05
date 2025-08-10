@@ -758,3 +758,7 @@ img {
 .form-contacts-checkbox {
   margin-bottom: 24px;
 }
+
+.input-checkbox {
+  visibility: hidden;
+}
