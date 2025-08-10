@@ -625,6 +625,11 @@ img {
   border: none;
 }
 
+.icon-modal-close:hover,
+.icon-modal-close:focus {
+  fill: #ffffff;
+}
+
 .icon-modal-close {
   width: 8px;
   height: 8px;
