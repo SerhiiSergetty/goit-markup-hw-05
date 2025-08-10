@@ -670,6 +670,15 @@ img {
   width: 100%;
   height: 120px;
   resize: none;
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  padding: 16px 8px 16px 8px;
+}
+
+.textarea-form::placeholder {
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .label-chekbox {
@@ -681,7 +690,7 @@ img {
   color: #8e8f99;
 }
 
-.btn-form-cobmit {
+.btn-form-sobmit {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
@@ -701,4 +710,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.input-svg-form {
+  fill: #2e2f42;
+  position: relative;
+}
+
+.input-svg-form svg {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
 }
