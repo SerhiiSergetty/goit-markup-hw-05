@@ -626,11 +626,6 @@ img {
   fill: #ffffff;
 }
 
-/*.icon-modal-close:hover,
-.icon-modal-close:focus {
-  fill: #ffffff;
-}*/
-
 .icon-modal-close {
   width: 8px;
   height: 8px;
@@ -654,14 +649,13 @@ img {
 .label-form {
   display: block;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
 .input-form {
   margin-bottom: 4px;
-  line-height: 1.17;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
