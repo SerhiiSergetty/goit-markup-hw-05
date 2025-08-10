@@ -782,3 +782,17 @@ img {
 .link-form {
   color: #4d5ae5;
 }
+
+.btn-form-sobmit {
+  display: block;
+  min-width: 169px;
+  border-radius: 4px;
+  margin: 0 auto;
+  height: 56px;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-form-sobmit:hover,
+.btn-form-sobmit:focus {
+  background: #404bbf;
+}
